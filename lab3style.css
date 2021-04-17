@@ -1,7 +1,7 @@
 /* Styling for index.html */ 
 body {
     background: radial-gradient(circle, rgb(207, 178, 178), rgb(255, 255, 255));
-
+    font-family: 'Frank Ruhl Libre', serif;
   }
   /*trying out classes*/ 
   .blushh3 {
@@ -94,6 +94,7 @@ body {
     margin-bottom: 75px;
   }
   h1 {
+    font-family: 'Orelega One', bold;
     color: #f8e4de;
     margin-left:5px;
     background: url(https://64.media.tumblr.com/5b45569b9efcc5db9c0539beefebbf2a/tumblr_n8kynx56bR1tgeiymo1_1280.png);
@@ -101,6 +102,8 @@ body {
   }
 
   h2 { 
+    font-family:'Playfair Display', serif;
+
       color: hsl(45, 32%, 30%);
       background-color: rgba(214,174,172,255);
       margin-top: 20px;
@@ -110,9 +113,10 @@ body {
 
   h3{
       width: 10em; 
+      font: cooperplate; 
       background-color: blanchedalmond;
       color:  hsl(4, 32%, 58%);
       text-decoration: underline;
       text-decoration-color: rgb(235,142,137,1);
-      
+      font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; 
   }
