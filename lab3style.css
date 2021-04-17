@@ -1,7 +1,9 @@
 /* Styling for index.html */ 
 body {
     background: radial-gradient(circle, rgb(207, 178, 178), rgb(255, 255, 255));
-    font-family: 'Frank Ruhl Libre', serif;
+    /*font-family: 'Frank Ruhl Libre', serif;*/ 
+    font-family: 'Amatic SC', bold;
+    font-size:large;
   }
   /*trying out classes*/ 
   .blushh3 {
@@ -79,6 +81,53 @@ body {
 
   }
 
+  /*pseudo class*/
+   a:visited{
+     background: transparent; 
+     color: rgba(135,65,83,255); 
+   }
+   a:hover{
+     color:rgb(140,188,100);
+   }
+
+   a:active{
+     color: rgba(209,164,44,255); 
+   }
+
+  /*layout:flex*/ 
+  .containerbox{
+    display: flex; 
+    width: 100%; 
+  }
+
+  .containerbox > div{ 
+    background-color: rgba(181,167,78,.4);
+    margin: 20px; 
+    padding: 30px; 
+    font-size: 30px;
+    text-align: center;
+    color: rgba(82,92,32,255); 
+  }
+
+  /*layout: grid*/
+  .containergrid{
+    display:grid; 
+    grid-template-columns: repeat(3, 210px);    
+    
+  } 
+
+  .gridbox{
+    border:5px solid white; 
+    background-color:rgba(187,132,151,.5) ;
+
+  }
+
+  .crop{
+    width: 150pt; 
+    height: 206px; 
+    object-fit: auto; 
+  }
+
   .rect {
     width: 250px;
     height: 270px;
@@ -113,10 +162,11 @@ body {
 
   h3{
       width: 10em; 
-      font: cooperplate; 
       background-color: blanchedalmond;
       color:  hsl(4, 32%, 58%);
       text-decoration: underline;
       text-decoration-color: rgb(235,142,137,1);
-      font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; 
-  }
+      font-family: 'Playfair Display', Arial, bold;
+      text-transform: lowercase;
+      font-size: large;
+    }
