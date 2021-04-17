@@ -7,13 +7,31 @@ body {
   .blushh3 {
     color:hsl(4, 32%, 58%);
   }
+  /*units*/ 
   .em{ 
       font-size: 1.3ex;
       line-height: 0.5in;
+      text-align: end;
+    
   }
   .vw {
     width: 25vw;
-    font-size: 15pt;
+    font-size: 15pt; 
+  }
+  /* box */ 
+  .boxmeme{
+    border-width: 10px;
+    border-style: dotted; 
+    border: radius 0;
+    border-color: #18150c;
+    background-color: rgba(242,210,117,255);
+    padding: 30px,50px,30px,50px;
+    margin: 5px,5px,5px,5px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    background-size:contain;
+    background-repeat:no-repeat;
   }
   .rect {
     width: 250px;
@@ -48,5 +66,7 @@ body {
       width: 10em; 
       background-color: blanchedalmond;
       color:  hsl(4, 32%, 58%);
+      text-decoration: underline;
+      text-decoration-color: rgb(235,142,137,1);
       
   }
