@@ -1,0 +1,21 @@
+/* Styling for index.html */ 
+body {
+    background-color:rgba(235,225,208,255);
+  }
+  
+  h1 {
+    color: #4c7454;
+    margin-left:20px;
+  }
+
+  h2 { 
+      color: hsl(45, 32%, 30%);
+      background-color: rgba(214,174,172,255);
+      margin-top: 20px;
+      text-align:center;
+  }
+
+  h3{
+      color:  hsl(4, 32%, 58%);
+      
+  }
