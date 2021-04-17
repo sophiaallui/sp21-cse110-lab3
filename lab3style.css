@@ -33,6 +33,52 @@ body {
     background-size:contain;
     background-repeat:no-repeat;
   }
+
+  /*inline*/
+  span.a{
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px double rgb(100,88,52);  
+    background-color: rgba(234,173,166,255); 
+  }
+  /*block*/ 
+  span.b{
+      display: block; 
+      text-align: center;
+      font-size:60pt;
+      width: 100px;
+      height: 100px;
+      padding: 5px; 
+      border: 1px double rgb(100,88,52);
+      background-color: rgba(234,173,166,255); 
+  }
+
+  /*sizing*/ 
+  p.max{
+      max-width: 31%;
+  }
+  ol.max{
+      max-width: 30%;
+  }
+
+  /*position*/
+  div.static{
+      position: static; 
+      width: 113px; 
+      height: 135px; 
+      border:5px solid hsl(4, 32%, 58%)
+  }
+  div.relative{
+      position: relative; 
+      left: 30px;
+      width: 200px;
+      height: 200px;
+      border: 10px solid rgb(140,188,100,.4);
+
+  }
+
   .rect {
     width: 250px;
     height: 270px;
