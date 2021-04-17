@@ -1,21 +1,52 @@
 /* Styling for index.html */ 
 body {
-    background-color:rgba(235,225,208,255);
+    background: radial-gradient(circle, rgb(207, 178, 178), rgb(255, 255, 255));
+
   }
-  
+  /*trying out classes*/ 
+  .blushh3 {
+    color:hsl(4, 32%, 58%);
+  }
+  .em{ 
+      font-size: 1.3ex;
+      line-height: 0.5in;
+  }
+  .vw {
+    width: 25vw;
+    font-size: 15pt;
+  }
+  .rect {
+    width: 250px;
+    height: 270px;
+    background: rgb(181,166,80,0.445);
+    padding-top: 45px;
+    margin-bottom: 75px;
+  }
+  .rect1 {
+    width: 250px;
+    height: 270px;
+    background: rgba(100, 88, 52, 0.445);
+    padding-top: 45px;
+    margin-bottom: 75px;
+  }
   h1 {
-    color: #4c7454;
-    margin-left:20px;
+    color: #f8e4de;
+    margin-left:5px;
+    background: url(https://64.media.tumblr.com/5b45569b9efcc5db9c0539beefebbf2a/tumblr_n8kynx56bR1tgeiymo1_1280.png);
+
   }
 
   h2 { 
       color: hsl(45, 32%, 30%);
       background-color: rgba(214,174,172,255);
       margin-top: 20px;
+
       text-align:center;
   }
 
   h3{
+      width: 10em; 
+      background-color: blanchedalmond;
       color:  hsl(4, 32%, 58%);
       
   }
