@@ -81,6 +81,24 @@ body {
 
   }
 
+  @media all and (display-mode: fullscreen) {
+    body {
+      margin: 0;
+      border: 5px solid rgb(223, 146, 146);
+    }
+  }
+
+  #idk{
+    text-align: center;
+    color:hsl(45, 32%, 30%); 
+  }
+
+  * {
+    text-align: left;
+    margin: 10px;
+  }
+
+
   /*pseudo class*/
    a:visited{
      background: transparent; 
@@ -93,6 +111,36 @@ body {
    a:active{
      color: rgba(209,164,44,255); 
    }
+
+   a[href$=".com"] {
+    color:darksalmon;
+  }
+
+  /*selector list*/
+  h1,h3{
+    text-align:left; 
+  }
+
+  /*Descendant Combinator*/
+  li {
+    list-style-type: disc;
+    color:hsl(4, 32%, 58%);
+  }
+  li li {
+    list-style-type: circle;
+    color:teal;
+  }
+
+  /*general sibling combo*/
+  img ~ p {
+    color: rgb(114, 90, 114);
+  }
+
+  /*adj sibling*/
+  div + p {
+    background-color: rgba(223, 171, 202, 0.324);
+  }
+
 
   /*layout:flex*/ 
   .containerbox{
