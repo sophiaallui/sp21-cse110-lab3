@@ -1,4 +1,4 @@
-## Lab 3 - just checking if it didnt get pushed into lab 2 (P)
+## Lab 3 
 
 https://sophiaallui.github.io/sp21-cse110-lab3/
 
